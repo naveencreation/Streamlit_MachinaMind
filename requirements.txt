@@ -1,0 +1,12 @@
+streamlit
+streamlit-option-menu
+firebase-admin
+streamlit-lottie
+h2o
+pandas
+scikit-learn
+matplotlib
+seaborn
+plotly
+requests
+joblib
