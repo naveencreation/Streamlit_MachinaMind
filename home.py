@@ -103,5 +103,5 @@ The machine learning lifecycle provides a structured approach to projects, effic
     """)
 
     st.subheader(":blue[6. Monitoring and Maintenance]")
-    st.image("D:/Software developnment/Try/image/Monitoring_and_Maintenance.png", use_column_width=True)
+    st.image("Monitoring_and_Maintenance.png", use_column_width=True)
    
