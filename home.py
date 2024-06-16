@@ -7,7 +7,7 @@ def main():
     st.write("Before diving into file preprocessing or any other procedures, it's crucial to establish a solid foundation in machine learning principles.")
     #st.title("Machine Learning")
     st.subheader(":blue[The Machine Learning Life Cycle]")
-    st.image("D:/Software developnment/Try/image/beginner.png", use_column_width=True)
+    st.image("beginner.png", use_column_width=True)
     st.write("Lets Learn about the steps involved in a standard machine learning project as we explore the ins and outs of the machine learning lifecycle using CRISP-ML(Q).")
 
     #st.write("MachineLearningLifecycle")
@@ -20,7 +20,7 @@ The machine learning lifecycle provides a structured approach to projects, effic
     """)
 
     st.subheader(":blue[The 6 steps in a standard machine learning life cycle:]")
-    st.image("D:/Software developnment/Try/image/lifecycle.png", caption="Your Image", use_column_width=True)
+    st.image("lifecycle.png", caption="Your Image", use_column_width=True)
     st.write("""
     1. Planning
     2. Data Preparation 
@@ -38,7 +38,7 @@ The machine learning lifecycle provides a structured approach to projects, effic
 
     st.subheader(":blue[1. Planning]")
     st.write("Machine Learning Project Planning")
-    st.image("D:/Software developnment/Try/image/planning.png", use_column_width=True)
+    st.image("planning.png", use_column_width=True)
     st.write("""
     The planning phase involves assessing the scope, success metric, and feasibility of the ML application. You need to understand the business and how to use machine learning to improve the current process. For example: do we require machine learning? Can we achieve similar requests with simple programming?
 
@@ -48,7 +48,7 @@ The machine learning lifecycle provides a structured approach to projects, effic
     """)
 
     st.subheader(":blue[2. Data Preparation]")
-    st.image("D:/Software developnment/Try/image/data_extraction.png", width=300)
+    st.image("data_extraction.png", width=300)
     st.write("""
     The data preparation section is further divided into four parts: data procurement and labeling, cleaning, management, and processing.   
 
@@ -59,7 +59,7 @@ The machine learning lifecycle provides a structured approach to projects, effic
     """)
 
     st.subheader(":blue[3. Model Engineering]")
-    st.image("D:/Software developnment/Try/image/feature-engineering.png", use_column_width=True)
+    st.image("feature-engineering.png", use_column_width=True)
     st.write("""
     In this phase, we will be using all the information from the planning phase to build and train a machine learning model. For example: tracking model metrics, ensuring scalability and robustness, and optimizing storage and compute resources. 
 
@@ -77,7 +77,7 @@ The machine learning lifecycle provides a structured approach to projects, effic
     """)
 
     st.subheader(":blue[4. Model Evaluation]")
-    st.image("D:/Software developnment/Try/image/Model_Evaluation.png", use_column_width=True)
+    st.image("Model_Evaluation.png", use_column_width=True)
     st.write("""
     Now that we have finalized the version of the model, it is time to test various metrics. Why? So that we can ensure that our model is ready for production. 
 
@@ -91,7 +91,7 @@ The machine learning lifecycle provides a structured approach to projects, effic
     """)
 
     st.subheader(":blue[5. Model Deployment]")
-    st.image("D:/Software developnment/Try/image/Model_Deployment.png", use_column_width=True)
+    st.image("Model_Deployment.png", use_column_width=True)
     st.write("""
     In this phase, we deploy machine learning models to the current system. For example: introducing automatic warehouse labeling using the shape of the product. We will be deploying a computer vision model into the current system, which will use the images from the camera to print the labels.
 
