@@ -50,7 +50,6 @@ PAGES = {
     "Data Collection":"Data",
     "File Preprocessing": "page1",
     "Analysis/Model Selection":"manual",
-    "AutoML":"automl",
     "Predict":"predict",
     "About Me":"about"
     
@@ -124,7 +123,7 @@ def main():
             selected = option_menu(
                 menu_title=f"Welcome, {st.session_state.username}",
                 options=list(PAGES.keys()),
-                icons=["house", "file-earmark","bi bi-database-fill-gear","bi bi-graph-up","bi bi-robot","bi bi-search","bi bi-person"],
+                icons=["house", "file-earmark","bi bi-database-fill-gear","bi bi-graph-up","bi bi-robot","bi bi-person"],
                 menu_icon="cast",
                 default_index=0,
             )
