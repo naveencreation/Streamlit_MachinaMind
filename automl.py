@@ -4,12 +4,13 @@ from h2o.automl import H2OAutoML
 import pandas as pd
 import pickle
 import tempfile
+import os
 
 def initialize_h2o():
     h2o.init()
 
 def shutdown_h2o():
-    h2o.shutdown()
+    h2o.shutdown(prompt=False)
 
 def train_model(df):
     h2o_df = h2o.H2OFrame(df)
@@ -23,6 +24,9 @@ def train_model(df):
     return aml
 
 def main():
+    # Run setup script to install Java
+    os.system("bash setup.sh")
+
     st.title(':violet[H2O AutoML with Streamlit]')
 
     st.write("This app trains an H2O AutoML model and allows you to download the trained model as a pickle file.")
